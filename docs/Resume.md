@@ -1,5 +1,5 @@
  Divya Sri Nunety
-
+![Divya Sri Nunety's Headshot](headshot.jpg)
 
 ## Contact Information
 - **Location:** Catonsville, Maryland
