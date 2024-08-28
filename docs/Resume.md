@@ -15,7 +15,7 @@ Hardworking master’s student seeking an internship opportunity to gain more kn
 
 **University of Maryland, Baltimore County**  
 *Master of Professional Studies, Data Science*  
-GPA: 3.889/4  
+GPA: 3.88/4  
 Expected: December 2024  
 Relevant Coursework: Machine Learning, Big Data Processing, Data Analysis, Data Management, Management and Leadership Communications and Natural Language Processing 
 
