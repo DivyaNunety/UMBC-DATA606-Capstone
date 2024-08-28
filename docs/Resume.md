@@ -9,7 +9,8 @@
 - **LinkedIn:** [linkedin.com/in/divya-sri-nunety-59b446270](https://linkedin.com/in/divya-sri-nunety-59b446270)
 
 ## Summary
-Hardworking master’s student seeking an internship opportunity to gain more knowledge in data analytics, engineering, machine learning, and data science. Eager to enrich skills through practical experience and contribute to data-driven projects.
+Motivated master’s student seeking an internship to advance knowledge in data analytics, engineering, machine learning, and data science. Dedicated to applying practical experience to enhance skills and contribute to impactful data-driven projects. In addition to academic pursuits, actively engaged in social service by participating in community initiatives and collaborating with non-profits to support and empower underserved populations.
+
 
 ## Education
 
