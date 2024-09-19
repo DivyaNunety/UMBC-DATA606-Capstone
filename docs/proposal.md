@@ -13,8 +13,29 @@
 This project aims to predict the severity of road traffic accidents and identify the drivers at fault using machine learning techniques. The dataset obtained from the Automated Crash Reporting System (ACRS) of the Maryland State Police contains detailed records of traffic collisions on county and local roadways within Montgomery County. It includes information about each collision such as the type of vehicles involved, crash conditions, injury severity, and driver details. The project focuses on leveraging data-driven methods to understand the key factors contributing to accident severity and to build predictive models that can classify future accident outcomes and determine fault based on the available data.
 
 ### Why Does It Matter?
-Road traffic accidents are a leading cause of injuries, fatalities, and economic losses worldwide. Using machine learning to predict accident severity and determine fault has several critical benefits. Accurate predictions can help emergency services allocate resources more effectively, ensuring faster and more appropriate responses based on the potential severity of accidents. Understanding the factors that contribute to severe accidents can guide policy changes, infrastructure improvements, and targeted safety campaigns, ultimately enhancing road safety. Additionally, accurately identifying who is at fault in accidents can streamline the insurance claims process, ensuring fair compensation and reducing fraud. These insights enable government agencies and law enforcement to make data-driven decisions for better traffic management and resource planning. Moreover, by recognizing patterns in driver faults and accident severity, targeted interventions can be implemented to reduce human error, making roads safer for everyone.
+Here’s the paragraph broken down into key points:
 
+- **Accurate predictions**:
+  - Help emergency services allocate resources more effectively.
+  - Ensure faster and more appropriate responses based on accident severity.
+
+- **Understanding accident factors**:
+  - Can guide **policy changes**.
+  - Inform **infrastructure improvements**.
+  - Support **targeted safety campaigns** to enhance road safety.
+
+- **Identifying fault**:
+  - Streamlines the **insurance claims process**.
+  - Ensures **fair compensation**.
+  - Reduces **fraud**.
+
+- **Data-driven insights**:
+  - Enable **government agencies** and **law enforcement** to make informed decisions for **better traffic management**.
+  - Assist in **resource planning**.
+
+- **Recognizing patterns** in driver faults and accident severity:
+  - Helps implement **targeted interventions** to reduce **human error**.
+  - Contributes to **safer roads** for everyone.
 ## Research Questions
 1. How does driver behavior (e.g., speeding, distraction, alcohol use) influence the likelihood of being at fault in a traffic collision?
 2. Can real-time data (e.g., weather, traffic flow) improve the accuracy of predictive models for accident severity and fault determination?
