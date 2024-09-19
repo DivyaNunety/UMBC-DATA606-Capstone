@@ -26,16 +26,16 @@ Road traffic accidents are a leading cause of injuries, fatalities, and economic
 The dataset used in this project is sourced from the Automated Crash Reporting System (ACRS) ([Crash Reporting - Drivers Data](https://catalog.data.gov/dataset/crash-reporting-drivers-data)) maintained by the Maryland State Police, with collision data reported by Montgomery County Police, Gaithersburg Police, Rockville Police, and Maryland-National Capital Park Police. It includes detailed records of traffic collisions on county and local roadways.
 
 ### Data Size:
-- **Size**: 82 MB
+      82 MB
 
 ### Data Shape:
 - **Rows**: 157,841
 - **Columns**: 43
 
 ### Time Period:
-- **Time Period**: 2006-2024
+    2006-2024
 
-### What Does Each Row Represent?
+### Each Row Represent
 Each row represents a motor vehicle operator (driver) involved in a traffic collision on a county or local roadway in Montgomery County. Each entry includes driver, vehicle, and accident details as well as severity and fault data.
 
 ## Data Dictionary
