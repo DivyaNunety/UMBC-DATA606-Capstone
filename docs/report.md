@@ -28,22 +28,22 @@ The dataset is relatively clean after removing missing values, but I recognize t
 ### **2.1 Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
 
-![ACRS Report Types](path/to/acrs_report_types.png)  
+![ACRS Report Types](./acrs_report_types.png)  
 *Distribution of ACRS Report Types*
 
-![Collision Types](path/to/collision_types.png)  
+![Collision Types](./collision_types.png)  
 *Frequency of Different Collision Types*
 
-![Weather Conditions](path/to/weather_conditions.png)  
+![Weather Conditions](./weather_conditions.png)  
 *Distribution of Weather Conditions*
 
-![Surface Conditions](path/to/surface_conditions.png)  
+![Surface Conditions](./surface_conditions.png)  
 *Distribution of Surface Conditions*
 
-![Driver Substance Abuse](path/to/driver_substance_abuse.png)  
+![Driver Substance Abuse](./driver_substance_abuse.png)  
 *Role of Driver Substance Abuse in Crashes*
 
-![Injury Severity](path/to/injury_severity.png)  
+![Injury Severity](./injury_severity.png)  
 *Injury Severity Analysis*
 
 #### Insights:
