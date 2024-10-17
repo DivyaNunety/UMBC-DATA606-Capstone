@@ -27,9 +27,9 @@ The dataset is relatively clean after removing missing values, but I recognize t
 
 ### **2.1 Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
-
+#### *Distribution of ACRS Report Types*
 ![ACRS Report Types](./acrs_report_types.png)  
-*Distribution of ACRS Report Types*
+
 
 ![Collision Types](./collision_types.png)  
 *Frequency of Different Collision Types*
