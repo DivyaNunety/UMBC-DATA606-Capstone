@@ -45,7 +45,7 @@ To explore key categorical features, I created visualizations to understand patt
 
 ### *Role of Driver Substance Abuse in Crashes*
 
-![Driver Substance Abuse](./driver_substance_abuse.png)  
+![Driver Substance Abuse](./driver_substance_abused.png)  
 
 ### *Injury Severity Analysis*
 
