@@ -31,23 +31,23 @@ To explore key categorical features, I created visualizations to understand patt
 
 ![ACRS Report Types](./acrs_report_types.png)  
 
-#### *Frequency of Different Collision Types*
+### *Frequency of Different Collision Types*
 
 ![Collision Types](./collision_types.png)  
 
-#### *Distribution of Weather Conditions*
+### *Distribution of Weather Conditions*
 
 ![Weather Conditions](./weather_conditions.png)  
 
-#### *Distribution of Surface Conditions*
+### *Distribution of Surface Conditions*
 
 ![Surface Conditions](./surface_conditions.png)  
 
-#### *Role of Driver Substance Abuse in Crashes*
+### *Role of Driver Substance Abuse in Crashes*
 
 ![Driver Substance Abuse](./driver_substance_abuse.png)  
 
-#### *Injury Severity Analysis*
+### *Injury Severity Analysis*
 
 ![Injury Severity](./injury_severity.png)  
 
