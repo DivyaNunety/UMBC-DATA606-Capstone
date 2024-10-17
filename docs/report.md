@@ -102,25 +102,7 @@ The logistic regression model provided an accuracy of **56%**, which indicates t
 
 ### **4.3 Model Evaluation**
 - **Accuracy**: The model achieved an accuracy of **56%**, which is a starting point for predicting driver fault.
-- **Precision, Recall, and F1-Score**: The classification report included these metrics, which helped me understand the trade-off between false positives and false negatives.
-
-#### Insights:
-The logistic regression model works well for simple relationships between features and the target. Given the accuracy of 56%, I believe the model can be improved by refining feature selection and exploring more complex models.
 
 ---
-
-## **5. Conclusion and Recommendations**
-
-### **5.1 Summary**
-I successfully analyzed and predicted driver fault in car crashes using logistic regression. My exploratory data analysis provided valuable insights into how factors like collision type, weather, and injury severity relate to crash outcomes. The logistic regression model achieved an accuracy of **56%**, which serves as a baseline.
-
-### **5.2 Recommendations for Improvement**
-1. **Data Imputation**: Instead of dropping rows with missing values, I should explore imputing missing data to retain more information.
-2. **Feature Engineering**: I could create new features, such as `Time of Day`, `Road Type`, or interactions between existing features, to better capture complex relationships.
-3. **Model Optimization**: I plan to use **GridSearchCV** to tune hyperparameters or explore alternative algorithms like **Random Forests**, **Support Vector Machines (SVMs)**, or **XGBoost** to improve the accuracy in the coming weeks.
-4. **Evaluation Metrics**: I should evaluate the model using additional metrics, such as the **ROC curve** and **AUC score**, to get a clearer understanding of the model's performance in distinguishing between classes.
-
----
-
-### **6. Final Remarks**
-This project has given me a solid understanding of data science and machine learning concepts, from data cleaning and exploration to model building and evaluation. While the current model achieves 56% accuracy, I plan to make further improvements by exploring more complex models and enhancing feature selection, with the goal of increasing accuracy in the coming weeks.
+### **5. Future**
+In future iterations, I would like to explore advanced models and implement more extensive feature selection to optimize performance and reduce residual prediction error. Additionally, I plan to utilize the Streamlit library to create an interactive interface for the project, allowing users to easily input data and visualize predictions in real time. This will enhance user engagement and facilitate better understanding of the model's outputs.
