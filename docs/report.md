@@ -25,33 +25,38 @@ The dataset consists of various features related to car crashes, including:
 ### **2.1 Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
 #### *Distribution of ACRS Report Types*
+Number of different type of report when filed after car crash: 3
 
 ![ACRS Report Types](./acrs_report_types.png)  
 
 ### *Frequency of Different Collision Types*
+Number of unique collision types: 3
+Although I initially observed 3 unique collision types, the graph displayed more types, possibly due to additional categories or mislabeled data. After resolving this, I gained a clear understanding of the types of collisions that occur most frequently.
 
 ![Collision Types](./collision_types.png)  
 
 ### *Distribution of Weather Conditions*
+Different Weather conditions: 20
 
 ![Weather Conditions](./weather_conditions.png)  
 
 ### *Distribution of Surface Conditions*
+Different Surface conditions: 18
 
 ![Surface Conditions](./surface_conditions.png)  
 
 ### *Role of Driver Substance Abuse in Crashes*
+Driver Substance Abuse while he was driving: 18
 
 ![Driver Substance Abuse](./driver_substance_abused.png)  
 
 ### *Injury Severity Analysis*
+Different Injury Severity conditions: 10
+By analyzing `Injury Severity` vs. `Vehicle Body Type` with scatter plots, I discovered potential relationships between vehicle type and injury severity, which are important for predicting crash outcomes.
 
 ![Injury Severity](./injury_severity.png)  
 
 
-#### Insights:
-- **Collision Types**: Although I initially observed 3 unique collision types, the graph displayed more types, possibly due to additional categories or mislabeled data. After resolving this, I gained a clear understanding of the types of collisions that occur most frequently.
-- **Injury Severity**: By analyzing `Injury Severity` vs. `Vehicle Body Type` with scatter plots, I discovered potential relationships between vehicle type and injury severity, which are important for predicting crash outcomes.
 
 ### **2.2 Correlation Analysis**
 I computed a correlation matrix to identify relationships between numeric variables:
