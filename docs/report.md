@@ -1,4 +1,4 @@
-# **Title**: Car Crash Data Analysis and Driver At-Fault Prediction using Logistic Regression
+# **Title**: Driver’s Fault Prediction 
 
 ## **Project Overview**
 The goal of my project is to analyze car crash data, identify key patterns related to crashes, and predict whether the driver was at fault using machine learning techniques. I employed data preprocessing, exploratory data analysis (EDA), and logistic regression for prediction.
