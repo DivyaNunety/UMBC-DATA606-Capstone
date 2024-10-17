@@ -18,9 +18,6 @@ The dataset consists of various features related to car crashes, including:
 - **Handling Missing Values**: I identified missing data in several columns and dropped irrelevant or redundant columns (`Report Number`, `Municipality`, `Related Non-Motorist`, etc.).
 - **Dropping Rows with Missing Values**: I dropped the rows containing missing values, which left me with only complete data for further analysis.
 
-#### Insights:
-The dataset is relatively clean after removing missing values, but I recognize that dropping entire rows may have resulted in a loss of valuable data. In future iterations, I might consider imputing missing values instead of dropping them, especially for key features.
-
 ---
 
 ## **2. Exploratory Data Analysis (EDA)**
