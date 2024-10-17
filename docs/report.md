@@ -27,11 +27,24 @@ The dataset is relatively clean after removing missing values, but I recognize t
 
 ### **2.1 Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
-- **ACRS Report Types**: I visualized the distribution of report types filed after a crash using a pie chart.
-- **Collision Types**: I used a horizontal bar chart to display the frequency of different types of collisions.
-- **Weather, Surface, and Light Conditions**: These factors were analyzed using bar charts to see how external conditions impact crash rates.
-- **Driver Substance Abuse**: I visualized the role of substance abuse during crashes using a bar chart.
-- **Injury Severity**: I explored this using bar charts and scatter plots to identify how different types of crashes and vehicles contribute to injury severity.
+
+![ACRS Report Types](path/to/acrs_report_types.png)  
+*Distribution of ACRS Report Types*
+
+![Collision Types](path/to/collision_types.png)  
+*Frequency of Different Collision Types*
+
+![Weather Conditions](path/to/weather_conditions.png)  
+*Distribution of Weather Conditions*
+
+![Surface Conditions](path/to/surface_conditions.png)  
+*Distribution of Surface Conditions*
+
+![Driver Substance Abuse](path/to/driver_substance_abuse.png)  
+*Role of Driver Substance Abuse in Crashes*
+
+![Injury Severity](path/to/injury_severity.png)  
+*Injury Severity Analysis*
 
 #### Insights:
 - **Collision Types**: Although I initially observed 3 unique collision types, the graph displayed more types, possibly due to additional categories or mislabeled data. After resolving this, I gained a clear understanding of the types of collisions that occur most frequently.
@@ -40,6 +53,9 @@ To explore key categorical features, I created visualizations to understand patt
 ### **2.2 Correlation Analysis**
 I computed a correlation matrix to identify relationships between numeric variables:
 - **Heatmap**: I used a heatmap to visualize the correlations between features such as `Injury Severity`, `Speed Limit`, and `Vehicle Damage Extent`, helping me understand how these features interact.
+
+![Correlation Heatmap](path/to/correlation_heatmap.png)  
+*Correlation Heatmap of Features*
 
 #### Insights:
 - There is likely a degree of correlation between `Injury Severity` and `Vehicle Damage Extent`, as well as between `Speed Limit` and other factors.
