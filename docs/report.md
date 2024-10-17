@@ -60,7 +60,7 @@ To explore key categorical features, I created visualizations to understand patt
 I computed a correlation matrix to identify relationships between numeric variables:
 - **Heatmap**: I used a heatmap to visualize the correlations between features such as `Injury Severity`, `Speed Limit`, and `Vehicle Damage Extent`, helping me understand how these features interact.
 
-![Correlation Heatmap](path/to/correlation_heatmap.png)  
+![Correlation Heatmap](./correlation_heatmap.png)  
 *Correlation Heatmap of Features*
 
 #### Insights:
