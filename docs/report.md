@@ -33,28 +33,28 @@ Number of different type of report when filed after car crash: 3
 Number of unique collision types: 3
 Although I initially observed 3 unique collision types, the graph displayed more types, possibly due to additional categories or mislabeled data. After resolving this, I gained a clear understanding of the types of collisions that occur most frequently.
 
-![Collision Types](./collision_types.png)  
+![Collision Types](./Images/collision_types.png)  
 
 ### *Distribution of Weather Conditions*
 Different Weather conditions: 20
 
-![Weather Conditions](./weather_conditions.png)  
+![Weather Conditions](./Images/weather_conditions.png)  
 
 ### *Distribution of Surface Conditions*
 Different Surface conditions: 18
 
-![Surface Conditions](./surface_conditions.png)  
+![Surface Conditions](./Images/surface_conditions.png)  
 
 ### *Role of Driver Substance Abuse in Crashes*
 Driver Substance Abuse while he was driving: 18
 
-![Driver Substance Abuse](./driver_substance_abused.png)  
+![Driver Substance Abuse](./Images/driver_substance_abused.png)  
 
 ### *Injury Severity Analysis*
 Different Injury Severity conditions: 10
 By analyzing `Injury Severity` vs. `Vehicle Body Type` with scatter plots, I discovered potential relationships between vehicle type and injury severity, which are important for predicting crash outcomes.
 
-![Injury Severity](./injury_severity.png)  
+![Injury Severity](./Images/injury_severity.png)  
 
 
 
@@ -62,7 +62,7 @@ By analyzing `Injury Severity` vs. `Vehicle Body Type` with scatter plots, I dis
 I computed a correlation matrix to identify relationships between numeric variables:
 - **Heatmap**: I used a heatmap to visualize the correlations between features such as `Injury Severity`, `Speed Limit`, and `Vehicle Damage Extent`, helping me understand how these features interact.
 
-![Correlation Heatmap](./correlation_heatmap.png)  
+![Correlation Heatmap](./Images/correlation_heatmap.png)  
 *Correlation Heatmap of Features*
 
 #### Insights:
