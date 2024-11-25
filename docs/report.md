@@ -27,7 +27,7 @@ To explore key categorical features, I created visualizations to understand patt
 #### *Distribution of ACRS Report Types*
 Number of different type of report when filed after car crash: 3
 
-![ACRS Report Types](./acrs_report_types.png)  
+![ACRS Report Types](./Images/acrs_report_types.png)  
 
 ### *Frequency of Different Collision Types*
 Number of unique collision types: 3
