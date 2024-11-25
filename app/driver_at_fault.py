@@ -42,10 +42,27 @@ st.title("🚗 Driver Fault Prediction with Logistic Regression")
 st.markdown("### Predict if a driver is at fault based on car crash data.")
 
 # Load and cache the data
+#@st.cache_data
+#def load_data():
+ #   data = pd.read_csv("C:/Users/divya/OneDrive/Desktop/606/final/Drivers_Data.csv")
+  #  return data
 @st.cache_data
-def load_data():
-    data = pd.read_csv("C:/Users/divya/OneDrive/Desktop/606/final/Drivers_Data.csv")
-    return data
+def load_data(uploaded_file):
+    if uploaded_file is not None:
+        data = pd.read_csv(uploaded_file)
+        return data
+    else:
+        st.error("Please upload a CSV file to continue.")
+        return None
+
+# File uploader widget
+uploaded_file = st.file_uploader("Upload your Drivers_Data.csv file", type=["csv"])
+car_crash_df = load_data(uploaded_file)
+
+if car_crash_df is not None:
+    st.write(f"Dataset contains **{car_crash_df.shape[0]} rows** and **{car_crash_df.shape[1]} columns**.")
+else:
+    st.stop()
 
 car_crash_df = load_data()
 
