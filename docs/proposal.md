@@ -1,8 +1,13 @@
-# Project Title: Driver’s Fault Prediction 
-
-**Prepared for**: UMBC Data Science Master’s Degree Capstone by Dr. Chaojie (Jay) Wang  
+# Project Title: Driver’s Fault Prediction
+**Prepared for**: UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
 **Author**: Divya Sri Nunety  
-**Semester**: Fall '24  
+
+- [GitHub Repository](#)  
+- [LinkedIn Profile](#)  
+- [PowerPoint Presentation](#)  
+- [YouTube Video](#)  
+
+---
 
 **GitHub repo of the project**: [UMBC-DATA606-Capstone](https://github.com/DivyaNunety/UMBC-DATA606-Capstone.git)  
 **LinkedIn profile**: [Divya Sri Nunety](https://www.linkedin.com/in/divyasrinunety/)
