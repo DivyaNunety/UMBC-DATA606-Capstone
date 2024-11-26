@@ -219,10 +219,15 @@ While **label encoding** is useful for this classification task, I could explore
 
 ### Development Tools  
 - **Python Libraries**: `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`.  
-- **Environment**: Google Colab, Juypter. 
+- **Environment**: Google Colab, Juypter.
+  
+---
 
 ### **Model Evaluation**
-- **Accuracy**: The model achieved an accuracy of **56%**, which is a starting point for predicting driver fault.
+**Accuracy**: 
+- **Logistic Regression**: 78.77
+- **Random Forest**: 74.22
+- **Support Vector Machine**: 72.06
 
 ---
 ### **Future**
