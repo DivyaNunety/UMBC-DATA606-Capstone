@@ -139,33 +139,33 @@ The dataset consists of various features related to car crashes, including:
 
 ### **Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
-#### *Distribution of ACRS Report Types*
+#### **Distribution of ACRS Report Types**
 Number of different type of report when filed after car crash: 3
 
 ![ACRS Report Types](./Images/acrs_report_types.png)  
 
-### *Frequency of Different Collision Types*
+### **Frequency of Different Collision Types**
 Number of unique collision types: 3
 Although I initially observed 3 unique collision types, the graph displayed more types, possibly due to additional categories or mislabeled data. After resolving this, I gained a clear understanding of the types of collisions that occur most frequently.
 
 ![Collision Types](./Images/collision_types.png)  
 
-### *Distribution of Weather Conditions*
+### **Distribution of Weather Conditions**
 Different Weather conditions: 20
 
 ![Weather Conditions](./Images/weather_conditions.png)  
 
-### *Distribution of Surface Conditions*
+### **Distribution of Surface Conditions**
 Different Surface conditions: 18
 
 ![Surface Conditions](./Images/surface_conditions.png)  
 
-### *Role of Driver Substance Abuse in Crashes*
+### **Role of Driver Substance Abuse in Crashes**
 Driver Substance Abuse while he was driving: 18
 
 ![Driver Substance Abuse](./Images/driver_substance_abused.png)  
 
-### *Injury Severity Analysis*
+### **Injury Severity Analysis**
 Different Injury Severity conditions: 10
 By analyzing `Injury Severity` vs. `Vehicle Body Type` with scatter plots, I discovered potential relationships between vehicle type and injury severity, which are important for predicting crash outcomes.
 
