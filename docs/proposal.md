@@ -209,12 +209,17 @@ While **label encoding** is useful for this classification task, I could explore
 - Logistic Regression (Baseline)  
 - Random Forest  
 - Support Vector Machine (SVM)
-  
-### **Model Training and Testing**
-I trained the logistic regression model using the training set (`X_train`, `Y_train`). After fitting the model, I used it to predict on the test set (`X_test`) and generated a **classification report** to evaluate the performance.
 
-#### Insights:
-The logistic regression model provided an accuracy of **56%**, which indicates that there is room for improvement. I plan to enhance the model by tuning hyperparameters and trying alternative algorithms to increase this accuracy in the coming weeks.
+---
+
+### **Model Training and Testing**
+### Training Process  
+- Data split: 80% for training, 20% for testing.  
+- Cross-validation: 10-fold CV to ensure reliability. 
+
+### Development Tools  
+- **Python Libraries**: `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`.  
+- **Environment**: Google Colab, Juypter. 
 
 ### **Model Evaluation**
 - **Accuracy**: The model achieved an accuracy of **56%**, which is a starting point for predicting driver fault.
