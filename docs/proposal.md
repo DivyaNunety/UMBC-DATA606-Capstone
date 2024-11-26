@@ -204,16 +204,12 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-## **Model Building**
-
-### **Logistic Regression**
-- **Model Choice**: I selected logistic regression, as it is suitable for binary classification tasks such as predicting whether the driver was at fault.
-- **Feature and Target Split**: I split the dataset into a feature matrix `X` (independent variables) and the target variable `Y` (`Driver_At_Fault_encoded`).
-- **Train-Test Split**: I used an 80-20 split to divide the data into training and test sets (`train_test_split`).
-
-#### Insights:
-Logistic regression is a good baseline model because of its simplicity and interpretability. However, it may not capture complex relationships between variables, which a non-linear model might handle better.
-
+## **Model Building** 
+### Models  
+- Logistic Regression (Baseline)  
+- Random Forest  
+- Support Vector Machine (SVM)
+  
 ### **Model Training and Testing**
 I trained the logistic regression model using the training set (`X_train`, `Y_train`). After fitting the model, I used it to predict on the test set (`X_test`) and generated a **classification report** to evaluate the performance.
 
