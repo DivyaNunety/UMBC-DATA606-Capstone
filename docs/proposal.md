@@ -225,10 +225,31 @@ While **label encoding** is useful for this classification task, I could explore
 
 ### **Model Evaluation**
 **Accuracy**: 
-- **Logistic Regression**: 78.77
-- **Random Forest**: 74.22
-- **Support Vector Machine**: 72.06
+- **Logistic Regression**: 78.77%
+- **Random Forest**: 74.22%
+- **Support Vector Machine**: 72.06%
+  
+---
+
+## Application of the Trained Models  
+Developed an interactive **Streamlit** application:  
+- Inputs: Accident-related variables (e.g., Weather, Collision Type).  
+- Output: Likelihood of the driver being at fault.  
+- Features: Easy-to-use interface for public and policymakers.  
 
 ---
-### **Future**
-In future iterations, I would like to explore advanced models and implement more extensive feature selection to optimize performance and reduce residual prediction error. Additionally, I plan to utilize the Streamlit library to create an interactive interface for the project, allowing users to easily input data and visualize predictions in real time. This will enhance user engagement and facilitate better understanding of the model's outputs.
+
+## 6. Conclusion  
+### Key Findings  
+- Collision type, injury severity, and lighting conditions are significant predictors of fault.  
+- Logistic Regression provided interpretable results with high accuracy.  
+
+### Limitations  
+- Limited variables: The dataset lacks real-time factors like traffic flow and weather updates.  
+- No temporal or spatial modeling for location-specific insights.  
+
+### Future Work  
+- Incorporate external datasets (e.g., Census data, real-time traffic/weather).  
+- Experiment with neural networks for deeper insights.  
+
+---
