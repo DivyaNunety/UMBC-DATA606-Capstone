@@ -27,7 +27,7 @@ st.markdown("### Predict if a driver is at fault based on car crash data.")
 # Load and cache the data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("C:/Users/divya/OneDrive/Desktop/606/final/Drivers_Data.csv")
+    data = pd.read_csv("https://drive.google.com/file/d/1J05JgLRPgIdVUiJddO-qH9HBhFQCyLK3/view?usp=sharing")
     return data
 
 car_crash_df = load_data()
