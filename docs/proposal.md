@@ -230,6 +230,8 @@ While **label encoding** is useful for this classification task, I could explore
 - **Support Vector Machine**: 72.06%
 
   Prediction Accuracy: With tuning, the Logistic Regression model achieved a prediction accuracy of 75%, making it a reliable tool for identifying driver fault in   accident scenarios.
+
+
   Example Prediction: For an accident with adverse weather, high injury severity, and substance abuse by the driver, the model would likely predict 'At Fault'.
 
 ---
