@@ -3,7 +3,7 @@
 **Author**: Divya Sri Nunety  
 
 - [GitHub Repository]: (https://github.com/DivyaNunety/UMBC-DATA606-Capstone.git)  
-- [LinkedIn Profile]: [Divya Sri Nunety](https://www.linkedin.com/in/divyasrinunety/)
+- [LinkedIn Profile]: (https://www.linkedin.com/in/divyasrinunety/)
 - [PowerPoint Presentation](#)  
 - [YouTube Video](#)  
 
