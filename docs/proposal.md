@@ -2,8 +2,8 @@
 **Prepared for**: UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
 **Author**: Divya Sri Nunety  
 
-- [GitHub Repository](#)  
-- [LinkedIn Profile](#)  
+- [GitHub Repository]: (https://github.com/DivyaNunety/UMBC-DATA606-Capstone.git)  
+- [LinkedIn Profile]: [Divya Sri Nunety](https://www.linkedin.com/in/divyasrinunety/)
 - [PowerPoint Presentation](#)  
 - [YouTube Video](#)  
 
