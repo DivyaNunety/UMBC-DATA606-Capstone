@@ -240,7 +240,7 @@ Developed an interactive **Streamlit** application:
 - Output: Likelihood of the driver being at fault.  
 - Features: Easy-to-use interface for public and policymakers.  
 ![Streamlit](./Images/app1.png)
-![Streamlit](./Images/app2.png)  
+  ![Streamlit](./Images/app2.png)  
 ---
 
 ## 11. Conclusion  
