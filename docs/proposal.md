@@ -61,7 +61,7 @@ The dataset used in this project is sourced from the Automated Crash Reporting S
 ### Each Row Represent
 Each row represents a motor vehicle operator (driver) involved in a traffic collision on a county or local roadway in Montgomery County. Each entry includes driver, vehicle, and accident details as well as severity and fault data.
 
-## 3. Data Dictionary
+### Data Dictionary
 
 | Column Name              | Data Type | Definition                                                  | Potential Values                          |
 |--------------------------|-----------|--------------------------------------------------------------|-------------------------------------------|
@@ -117,7 +117,7 @@ Each row represents a motor vehicle operator (driver) involved in a traffic coll
   - Emergency_Response_Time
   - Injury_Severity
   - Time_of_Day
-## 4. **Data Exploration and Cleaning**
+### **Data Exploration and Cleaning**
 
 ### **Dataset Overview**
 The dataset consists of various features related to car crashes, including:
@@ -132,7 +132,7 @@ The dataset consists of various features related to car crashes, including:
 
 ---
 
-## 5. **Exploratory Data Analysis (EDA)**
+## 4. **Exploratory Data Analysis (EDA)**
 
 ### **Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
@@ -183,7 +183,7 @@ I computed a correlation matrix to identify relationships between numeric variab
 
 ---
 
-## 6. **Data Preprocessing**
+### **Data Preprocessing**
 
 ### **Feature Selection**
 I selected a subset of columns that I believed would impact the prediction of whether the driver was at fault. These include:
@@ -201,7 +201,7 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-## 7. **Model Building** 
+## 6. **Model Building** 
 ### Models  
 - Logistic Regression (Baseline)  
 - Random Forest  
@@ -209,7 +209,7 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-## 8. **Model Training and Testing**
+### **Model Training and Testing**
 ### Training Process  
 - Data split: 80% for training, 20% for testing.  
 - Cross-validation: 10-fold CV to ensure reliability. 
@@ -220,7 +220,7 @@ While **label encoding** is useful for this classification task, I could explore
   
 ---
 
-## 9. **Model Evaluation**
+### **Model Evaluation**
 **Accuracy**: 
 - **Logistic Regression**: 78.77%
 - **Random Forest**: 74.22%
@@ -234,7 +234,7 @@ While **label encoding** is useful for this classification task, I could explore
 ![Accuracy](./Images/accuracy.png)  
 ---
 
-## 10. Application of the Trained Models  
+## 7. Application of the Trained Models  
 Developed an interactive **Streamlit** application:  
 - Inputs: Accident-related variables (e.g., Weather, Collision Type).  
 - Output: Likelihood of the driver being at fault.  
@@ -243,7 +243,7 @@ Developed an interactive **Streamlit** application:
   ![Streamlit](./Images/app2.png)  
 ---
 
-## 11. Conclusion  
+## 8. Conclusion  
 ### Key Findings  
 - Collision type, injury severity, and lighting conditions are significant predictors of fault.  
 - Logistic Regression provided interpretable results with high accuracy.  
@@ -257,7 +257,7 @@ Developed an interactive **Streamlit** application:
 - Experiment with neural networks for deeper insights.  
 
 ---
-## 12. References  
+## 9. References  
 - Maryland State Police Crash Reporting  
 - Python libraries documentation (scikit-learn, pandas, seaborn)  
 - Articles on machine learning for accident analysis  
