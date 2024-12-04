@@ -201,7 +201,7 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-## 6. **Model Building** 
+## 5. **Model Building** 
 ### Models  
 - Logistic Regression (Baseline)  
 - Random Forest  
@@ -234,7 +234,7 @@ While **label encoding** is useful for this classification task, I could explore
 ![Accuracy](./Images/accuracy.png)  
 ---
 
-## 7. Application of the Trained Models  
+## 6. Application of the Trained Models  
 Developed an interactive **Streamlit** application:  
 - Inputs: Accident-related variables (e.g., Weather, Collision Type).  
 - Output: Likelihood of the driver being at fault.  
@@ -243,7 +243,7 @@ Developed an interactive **Streamlit** application:
   ![Streamlit](./Images/app2.png)  
 ---
 
-## 8. Conclusion  
+## 7. Conclusion  
 ### Key Findings  
 - Collision type, injury severity, and lighting conditions are significant predictors of fault.  
 - Logistic Regression provided interpretable results with high accuracy.  
@@ -257,7 +257,7 @@ Developed an interactive **Streamlit** application:
 - Experiment with neural networks for deeper insights.  
 
 ---
-## 9. References  
+## 8. References  
 - Maryland State Police Crash Reporting  
 - Python libraries documentation (scikit-learn, pandas, seaborn)  
 - Articles on machine learning for accident analysis  
