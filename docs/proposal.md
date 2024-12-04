@@ -9,7 +9,7 @@
 
 ---
 
-## Background
+## 1. Background
 
 ### What is it About?
 This project aims to predict the severity of road traffic accidents and identify the drivers at fault using machine learning techniques. The dataset obtained from the Automated Crash Reporting System (ACRS) of the Maryland State Police contains detailed records of traffic collisions on county and local roadways within Montgomery County. It includes information about each collision such as the type of vehicles involved, crash conditions, injury severity, and driver details. The project focuses on leveraging data-driven methods to understand the key factors contributing to accident severity and to build predictive models that can classify future accident outcomes and determine fault based on the available data.
@@ -43,7 +43,7 @@ Here’s the paragraph broken down into key points:
 2. Can real-time data (e.g., weather, traffic flow) improve the accuracy of predictive models for accident severity and fault determination?
 3. What combinations of vehicle-related factors (e.g., vehicle type, age, safety features) are most strongly associated with high-severity accidents?
 
-## Data 
+## 2. Data 
 
 ### Data Sources:
 The dataset used in this project is sourced from the Automated Crash Reporting System (ACRS) ([Crash Reporting - Drivers Data](https://catalog.data.gov/dataset/crash-reporting-drivers-data)) maintained by the Maryland State Police, with collision data reported by Montgomery County Police, Gaithersburg Police, Rockville Police, and Maryland-National Capital Park Police. It includes detailed records of traffic collisions on county and local roadways.
@@ -132,7 +132,7 @@ The dataset consists of various features related to car crashes, including:
 
 ---
 
-## **Exploratory Data Analysis (EDA)**
+## 3. **Exploratory Data Analysis (EDA)**
 
 ### **Visualization of Categorical Variables**
 To explore key categorical features, I created visualizations to understand patterns in the data:
@@ -183,7 +183,7 @@ I computed a correlation matrix to identify relationships between numeric variab
 
 ---
 
-## **Data Preprocessing**
+## 4. **Data Preprocessing**
 
 ### **Feature Selection**
 I selected a subset of columns that I believed would impact the prediction of whether the driver was at fault. These include:
@@ -201,7 +201,7 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-## **Model Building** 
+## 5. **Model Building** 
 ### Models  
 - Logistic Regression (Baseline)  
 - Random Forest  
@@ -209,7 +209,7 @@ While **label encoding** is useful for this classification task, I could explore
 
 ---
 
-### **Model Training and Testing**
+### 6. **Model Training and Testing**
 ### Training Process  
 - Data split: 80% for training, 20% for testing.  
 - Cross-validation: 10-fold CV to ensure reliability. 
@@ -220,7 +220,7 @@ While **label encoding** is useful for this classification task, I could explore
   
 ---
 
-### **Model Evaluation**
+### 7. **Model Evaluation**
 **Accuracy**: 
 - **Logistic Regression**: 78.77%
 - **Random Forest**: 74.22%
@@ -234,7 +234,7 @@ While **label encoding** is useful for this classification task, I could explore
 ![Accuracy](./Images/accuracy.png)  
 ---
 
-## Application of the Trained Models  
+## 8. Application of the Trained Models  
 Developed an interactive **Streamlit** application:  
 - Inputs: Accident-related variables (e.g., Weather, Collision Type).  
 - Output: Likelihood of the driver being at fault.  
@@ -243,7 +243,7 @@ Developed an interactive **Streamlit** application:
 ![Streamlit](./Images/app2.png)  
 ---
 
-## 6. Conclusion  
+## 9. Conclusion  
 ### Key Findings  
 - Collision type, injury severity, and lighting conditions are significant predictors of fault.  
 - Logistic Regression provided interpretable results with high accuracy.  
@@ -257,7 +257,7 @@ Developed an interactive **Streamlit** application:
 - Experiment with neural networks for deeper insights.  
 
 ---
-## 7. References  
+## 10. References  
 - Maryland State Police Crash Reporting  
 - Python libraries documentation (scikit-learn, pandas, seaborn)  
 - Articles on machine learning for accident analysis  
