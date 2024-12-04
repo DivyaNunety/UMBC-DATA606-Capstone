@@ -234,6 +234,7 @@ While **label encoding** is useful for this classification task, I could explore
 
   Example Prediction: For an accident with adverse weather, high injury severity, and substance abuse by the driver, the model would likely predict 'At Fault'.
 
+![Accuracy](./Images/accuracy.png)  
 ---
 
 ## Application of the Trained Models  
