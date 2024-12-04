@@ -4,7 +4,7 @@
 
 - [GitHub Repository](https://github.com/DivyaNunety/UMBC-DATA606-Capstone.git)  
 - [LinkedIn Profile](https://www.linkedin.com/in/divyasrinunety/)
-- [PowerPoint Presentation](./Images/finalpresentation.pptx)  
+- [PowerPoint Presentation](./finalpresentation.pptx)  
 - [YouTube Video](https://youtu.be/59Y_Znl0plQ)  
 
 ---
