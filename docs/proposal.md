@@ -9,9 +9,6 @@
 
 ---
 
-**GitHub repo of the project**: [UMBC-DATA606-Capstone](https://github.com/DivyaNunety/UMBC-DATA606-Capstone.git)  
-**LinkedIn profile**: [Divya Sri Nunety](https://www.linkedin.com/in/divyasrinunety/)
-
 ## Background
 
 ### What is it About?
@@ -260,3 +257,7 @@ Developed an interactive **Streamlit** application:
 - Experiment with neural networks for deeper insights.  
 
 ---
+## 7. References  
+- Maryland State Police Crash Reporting  
+- Python libraries documentation (scikit-learn, pandas, seaborn)  
+- Articles on machine learning for accident analysis  
